@@ -1,46 +1,6 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 
-// settings for particle effect
-export const partOptions = {
-  particles: {
-    number: {
-      value: 80,
-      density: {
-        enable: true,
-        value_area: 800,
-      },
-    },
-    color: {
-      value: '#000000',
-    },
-    line_linked: {
-      color: '#708090',
-    },
-    shape: {
-      type: 'circle',
-    },
-    size: {
-      value: 2,
-    },
-  },
-  interactivity: {
-    detect_on: 'window',
-    events: {
-      onhover: {
-        enable: true,
-        mode: 'repulse',
-      },
-    },
-    modes: {
-      repulse: {
-        distance: 50,
-        duration: 0.4,
-      },
-    },
-  },
-};
-
 export default class Sidebar extends Component {
   render() {
     return (
@@ -118,6 +78,15 @@ export default class Sidebar extends Component {
                   <i className="icon-github"></i>
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://naimunsiraj.wordpress.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="icon-wordpress"></i>
+                </a>
+              </li>
             </ul>
           </nav>
           <div className="colorlib-footer"></div>
@@ -126,3 +95,43 @@ export default class Sidebar extends Component {
     );
   }
 }
+
+// settings for particle effect
+export const partOptions = {
+  particles: {
+    number: {
+      value: 80,
+      density: {
+        enable: true,
+        value_area: 800,
+      },
+    },
+    color: {
+      value: '#000000',
+    },
+    line_linked: {
+      color: '#708090',
+    },
+    shape: {
+      type: 'circle',
+    },
+    size: {
+      value: 2,
+    },
+  },
+  interactivity: {
+    detect_on: 'window',
+    events: {
+      onhover: {
+        enable: true,
+        mode: 'repulse',
+      },
+    },
+    modes: {
+      repulse: {
+        distance: 50,
+        duration: 0.4,
+      },
+    },
+  },
+};

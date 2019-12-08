@@ -17,23 +17,23 @@ export default class About extends Component {
                       <span className="heading-meta">About Me</span>
                       {/* <h2 className="colorlib-heading">Who Am I?</h2> */}
                       <p>
-                        Former Cloud Migration / Transformation Consultant
-                        turned Fullstack Engineer. I graduated from Columbia
-                        University with a degree in Chemical Engineering.
-                        Accenture was my door to a career in Tech, but
-                        everything was too high level and I wanted to get into
-                        the weeds.
+                        Former Cloud Migration Consultant turned Fullstack
+                        Engineer. I graduated from Columbia University with a
+                        degree in Chemical Engineering. Accenture was my door to
+                        a career in Tech, but everything was too high level and
+                        I wanted to get into the weeds.
                       </p>
                       <p>
                         Did a lot of research on coding bootcamps and finally
                         decided to pursue Fullstack Academy part-time. I
-                        graduated from FSA in September and have been carving a
-                        dev role for myself at Accenture in hopes to gain some
-                        industry-level coding experience.
+                        graduated from FSA in September 2019 and have been
+                        carving a dev role for myself at Accenture in hopes to
+                        gain some industry-level coding experience.
                       </p>
                       <p>
-                        Outside of work I love to climb (boulder specifically),
-                        read, listen to podcasts, dance, and write poetry!
+                        Outside of work I love to climb (bouldering
+                        specifically), read, listen to podcasts, dance, and
+                        write poetry!
                       </p>
                     </div>
                   </div>
