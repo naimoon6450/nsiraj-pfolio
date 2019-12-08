@@ -54,7 +54,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: 'Chivo', sans;
+  /* font-family: 'Chivo', sans; */
   font-weight: 400;
   margin: 0 0 30px 0;
 }
@@ -100,7 +100,7 @@ figure figcaption {
 }
 
 #colorlib-aside {
-  padding-top: 5em;
+  /* padding-top: 5em; */
   padding-bottom: 40px;
   float: left;
   width: 400px;
@@ -127,6 +127,7 @@ figure figcaption {
   width: 200px;
   height: 200px;
   margin: 0 auto;
+  margin-top: 5em;
   margin-bottom: 30px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -144,8 +145,8 @@ figure figcaption {
 }
 #colorlib-aside #colorlib-logo {
   text-align: right;
-  font-weight: 700;
-  font-size: 30px;
+  font-weight: lighter;
+  /* font-size: 30px; */
   margin-bottom: 0.5em;
   display: block;
   width: 100%;
@@ -314,7 +315,7 @@ figure figcaption {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
-  min-height: 400px;
+  /* min-height: 400px; */
   position: relative;
 }
 #colorlib-hero .flexslider .flex-control-nav {
@@ -428,7 +429,7 @@ figure figcaption {
   font-weight: 400;
 }
 #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
-  color:white;
+  color: white;
   /* border: 1px solid #000; */
   background: transparent !important;
 }
@@ -540,7 +541,7 @@ body.offcanvas .colorlib-nav-toggle {
 .heading-meta {
   margin-bottom: 15px;
   display: block;
-  font-size: 10px;
+  /* font-size: 10px; */
   text-transform: uppercase;
   color: #999999;
   font-weight: 500;
@@ -1842,4 +1843,28 @@ body.offcanvas .colorlib-nav-toggle {
   font-size: 50px;
   /* -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 3px black; */
+}
+
+.particles {
+  position: fixed;
+  width: 400px;
+  height: 100%;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+}
+
+.nav_links {
+  list-style-type: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
 }
