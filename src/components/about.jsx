@@ -4,24 +4,24 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <section className="colorlib-about" data-section="about">
-          <div className="colorlib-narrow-content">
-            <div className="row">
-              <div className="col-md-12">
+        <section className='colorlib-about' data-section='about'>
+          <div className='colorlib-narrow-content'>
+            <div className='row'>
+              <div className='col-md-12'>
                 <div
-                  className="row row-bottom-padded-sm animate-box"
-                  data-animate-effect="fadeInLeft"
+                  className='row row-bottom-padded-sm animate-box'
+                  data-animate-effect='fadeInLeft'
                 >
-                  <div className="col-md-12">
-                    <div className="about-desc">
-                      <span className="heading-meta">About Me</span>
+                  <div className='col-md-12'>
+                    <div className='about-desc'>
+                      <span className='heading-meta'>About Me</span>
                       {/* <h2 className="colorlib-heading">Who Am I?</h2> */}
                       <p>
                         Former Cloud Migration Consultant turned Fullstack
                         Engineer. I graduated from Columbia University with a
                         degree in Chemical Engineering. Accenture was my door to
                         a career in Tech, but everything was too high level and
-                        I wanted to get into the weeds.
+                        I wanted to get into the weeds of technology.
                       </p>
                       <p>
                         Did a lot of research on coding bootcamps and finally
@@ -42,97 +42,64 @@ export default class About extends Component {
             </div>
           </div>
         </section>
-        <section className="colorlib-about">
-          <div className="colorlib-narrow-content">
-            <div className="row">
+        <section className='colorlib-about'>
+          <div className='colorlib-narrow-content'>
+            <div className='row'>
               <div
-                className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-                data-animate-effect="fadeInLeft"
+                className='col-md-6 col-md-offset-3 col-md-pull-3 animate-box'
+                data-animate-effect='fadeInLeft'
               >
-                <span className="heading-meta">What I do?</span>
+                <span className='heading-meta'>What I do?</span>
                 {/* <h2 className="colorlib-heading">
                   Here are some of my expertise
                 </h2> */}
               </div>
             </div>
-            <div className="row row-pt-md">
-              <div className="col-md-4 text-center animate-box">
-                <div className="services color-1">
-                  <span className="icon">
-                    <i className="icon-bulb" />
+            <div className='row row-pt-md'>
+              <div className='col-md-4 text-center animate-box'>
+                <div className='services color-3'>
+                  <span className='icon'>
+                    <i className='icon-data' />
                   </span>
-                  <div className="desc">
-                    <h3>Web Development </h3>
+                  <div className='desc'>
+                    <h3>Fullstack Development</h3>
                     <p>
-                      I have experience building websites and chrome extentions
-                      using JavaScript,React,HTML,CSS
+                      Recent graduate of Fullstack Academy (Sept 2019), and
+                      looking to pursue my passion of becoming a Software
+                      Engineer
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 text-center animate-box">
-                <div className="services color-3">
-                  <span className="icon">
-                    <i className="icon-phone3" />
+              <div className='col-md-4 text-center animate-box'>
+                <div className='services color-1'>
+                  <span className='icon'>
+                    <i className='icon-cloud3' />
                   </span>
-                  <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
+                  <div className='desc'>
+                    <h3>Cloud Migration & Transformation</h3>
                     <p>
-                      As coming from the CS background, I have good grasp over
-                      fundamental concepts of DSA
+                      I have a dearth of experience in cloud transformation
+                      projects (ie. O365, Citrix, AWS) and have led various
+                      workstreams globally
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 text-center animate-box">
-                <div className="services color-5">
-                  <span className="icon">
-                    <i className="icon-data" />
+              <div className='col-md-4 text-center animate-box'>
+                <div className='services color-5'>
+                  <span className='icon'>
+                    <i className='icon-file' />
                   </span>
-                  <div className="desc">
-                    <h3>Dev Ops</h3>
+                  <div className='desc'>
+                    <h3>Project Management & Release Planning</h3>
                     <p>
-                      I am pursuing my internship with DevOps team at Juniper
-                      and working with tools like Jenkins, Docker, K8s
+                      Experienced in project management, product releast
+                      planning/deployment, and data analysis / scripting
                     </p>
                   </div>
                 </div>
               </div>
-              {/*
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-2">
-                <span className="icon">
-                    <i className="icon-data" />
-                </span>
-                <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>Jenkins , Kubernetes , Docker </p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-4">
-                <span className="icon">
-                    <i className="icon-layers2" />
-                </span>
-                <div className="desc">
-                    <h3>Graphic Design</h3>
-                    <p>My friend knows .. P</p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-6">
-                <span className="icon">
-                    <i className="icon-phone3" />
-                </span>
-                <div className="desc">
-                    <h3>Digital Marketing</h3>
-                    <p>I use Instagram eight hours a day :) </p>
-                </div>
-                </div>
-            </div>
-            */}
             </div>
           </div>
         </section>
