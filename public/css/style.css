@@ -100,6 +100,7 @@ figure figcaption {
 
 #colorlib-aside {
   /* padding-top: 5em; */
+  overflow: scroll;
   padding-bottom: 40px;
   float: left;
   width: 400px;
@@ -200,7 +201,7 @@ figure figcaption {
   color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
   position: relative;
-  padding: 10px 0;
+  padding: 11px 0;
 
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
