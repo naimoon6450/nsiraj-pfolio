@@ -186,7 +186,6 @@
     $section.waypoint(
       function(direction) {
         if (direction === 'up') {
-          console.log($(this.element));
           navActive($(this.element).data('section'));
         }
       },
