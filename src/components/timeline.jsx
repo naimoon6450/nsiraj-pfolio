@@ -38,9 +38,9 @@ export default class Timeline extends Component {
                           Accenture
                           <span className="durations">2015 - Present</span>
                         </h2>
-                        <h6 className="roles">
+                        <h4 className="roles">
                           Cloud Migration & Software Engineering Consultant
-                        </h6>
+                        </h4>
                       </div>
                     </div>
                   </article>
@@ -62,9 +62,9 @@ export default class Timeline extends Component {
                           Fullstack Academy
                           <span className="durations">2019</span>
                         </h2>
-                        <h6 className="roles">
+                        <h4 className="roles">
                           Part-Time (Flex) Program | NERP Stack
-                        </h6>
+                        </h4>
                       </div>
                     </div>
                   </article>
@@ -87,7 +87,7 @@ export default class Timeline extends Component {
                           Sciences (SEAS)
                           <span className="durations">2011 - 2015</span>
                         </h2>
-                        <h6 className="roles">B.S. Chemical Engineering</h6>
+                        <h4 className="roles">B.S. Chemical Engineering</h4>
                       </div>
                     </div>
                   </article>

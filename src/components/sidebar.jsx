@@ -53,15 +53,6 @@ export default class Sidebar extends Component {
             <ul>
               <li>
                 <a
-                  href="https://www.instagram.com/naimunsiraj/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="icon-instagram" />
-                </a>
-              </li>
-              <li>
-                <a
                   href="https://www.linkedin.com/in/nsiraj/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -85,6 +76,15 @@ export default class Sidebar extends Component {
                   rel="noopener noreferrer"
                 >
                   <i className="icon-wordpress"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/naimunsiraj/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="icon-instagram" />
                 </a>
               </li>
             </ul>
