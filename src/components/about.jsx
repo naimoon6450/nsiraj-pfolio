@@ -79,7 +79,7 @@ export default class About extends Component {
                   <div className='desc'>
                     <h3>Cloud Migration & Transformation</h3>
                     <p>
-                      I have a dearth of experience in cloud transformation
+                      I have experience in cloud transformation
                       projects (ie. O365, Citrix, AWS) and have led various
                       workstreams globally
                     </p>
